@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DCDCDCDC"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="BB 정각 알리미"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="1시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="2시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="3시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="4시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="5시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_06"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="6시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_07"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="7시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_08"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="8시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_09"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="9시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="2시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="11시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="12시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="13시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="14시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="15시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="16시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="17시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="18시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="19시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="20시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="21시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="22시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="23시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="24시"
+                    android:textColor="#00BCD4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#000000"
+        android:text="닫기"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
